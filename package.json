@@ -1,0 +1,27 @@
+{
+  "name": "grokking-algorithms",
+  "version": "1.0.0",
+  "description": "make some algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start":"webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoyan-hou/grokking-algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoyan-hou/grokking-algorithms/issues"
+  },
+  "homepage": "https://github.com/xiaoyan-hou/grokking-algorithms#readme",
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
