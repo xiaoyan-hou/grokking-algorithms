@@ -1,5 +1,7 @@
 import { binary_search1, binary_search2 }  from './lib/binary-search';
 import selectSort from './lib/sort/select-sort';
+import factorial from './lib/recursive/factorial';
+import fibonacci from './lib/recursive/fibonacci';
 
 function callFun() {
     // binary-search
@@ -10,6 +12,9 @@ function callFun() {
     // sort
     const arrForSort = [9, 6, 4, 5, 7, 2];
     console.log('select sort result',selectSort(arrForSort));
+
+    console.log('factorial result is', factorial(5));
+    console.log('result should be fibonacci 24', fibonacci(5));
 }
 function component() {
 	var element = document.createElement('div');
