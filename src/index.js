@@ -6,6 +6,7 @@ import { quickSort1, quickSort2, quickSort3} from './lib/sort/quick-sort';
 import bfs from './lib/graph/bfs';
 import dikstra from './lib/graph/dikstra'
 import states from './lib/greedyAlgorithm/states'
+import lcs from './lib/dp/lcs'
 
 function callFun() {
     // binary-search
